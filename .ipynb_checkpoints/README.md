@@ -10,6 +10,3 @@ keras.datasets.fashion_mnist
 This project uses a Variational Autoencoder trained on the dataset of clothing to generate random and entirely new images of clothing. 
 
 The program then uses a denoising Autoencoder, trained to reconstruct images from altered "noisy" training images, to increase the image definition of the generated images.
-
-# Inspiration
-The dataset and models used were heavily influenced by the models used in *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow* by Aurelien Geron.
